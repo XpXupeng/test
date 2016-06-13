@@ -1,0 +1,7 @@
+/home/xp/xpgit/yubot/build/CMakeFiles/clean_test_results.dir
+/home/xp/xpgit/yubot/build/CMakeFiles/download_extra_data.dir
+/home/xp/xpgit/yubot/build/CMakeFiles/doxygen.dir
+/home/xp/xpgit/yubot/build/gtest/CMakeFiles/gtest.dir
+/home/xp/xpgit/yubot/build/gtest/CMakeFiles/gtest_main.dir
+/home/xp/xpgit/yubot/build/CMakeFiles/run_tests.dir
+/home/xp/xpgit/yubot/build/CMakeFiles/tests.dir
