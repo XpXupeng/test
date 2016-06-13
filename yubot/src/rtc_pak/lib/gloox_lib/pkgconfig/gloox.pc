@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: gloox
+Description: A high-level XMPP/Jabber library for C++
+Version: 1.0.12
+Libs: -L${libdir} -lgloox -lresolv -lresolv -lresolv   -lidn -lgnutls   -lz
+Cflags: -I${includedir}  -I/usr/include/p11-kit-1   -pthread
