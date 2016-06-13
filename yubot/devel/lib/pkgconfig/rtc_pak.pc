@@ -1,0 +1,8 @@
+prefix=/home/xp/git/yubot/devel
+
+Name: rtc_pak
+Description: Description of rtc_pak
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/xp/git/yubot/devel/lib 
+Requires: 
