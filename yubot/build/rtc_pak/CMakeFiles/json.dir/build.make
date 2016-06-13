@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xp/git/yubot/src
+CMAKE_SOURCE_DIR = /home/xp/xpgit/yubot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xp/git/yubot/build
+CMAKE_BINARY_DIR = /home/xp/xpgit/yubot/build
 
 # Include any dependencies generated for this target.
 include rtc_pak/CMakeFiles/json.dir/depend.make
@@ -50,18 +50,18 @@ include rtc_pak/CMakeFiles/json.dir/progress.make
 include rtc_pak/CMakeFiles/json.dir/flags.make
 
 rtc_pak/CMakeFiles/json.dir/src/json.cpp.o: rtc_pak/CMakeFiles/json.dir/flags.make
-rtc_pak/CMakeFiles/json.dir/src/json.cpp.o: /home/xp/git/yubot/src/rtc_pak/src/json.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/xp/git/yubot/build/CMakeFiles $(CMAKE_PROGRESS_1)
+rtc_pak/CMakeFiles/json.dir/src/json.cpp.o: /home/xp/xpgit/yubot/src/rtc_pak/src/json.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/xp/xpgit/yubot/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object rtc_pak/CMakeFiles/json.dir/src/json.cpp.o"
-	cd /home/xp/git/yubot/build/rtc_pak && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/json.dir/src/json.cpp.o -c /home/xp/git/yubot/src/rtc_pak/src/json.cpp
+	cd /home/xp/xpgit/yubot/build/rtc_pak && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/json.dir/src/json.cpp.o -c /home/xp/xpgit/yubot/src/rtc_pak/src/json.cpp
 
 rtc_pak/CMakeFiles/json.dir/src/json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/json.dir/src/json.cpp.i"
-	cd /home/xp/git/yubot/build/rtc_pak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/xp/git/yubot/src/rtc_pak/src/json.cpp > CMakeFiles/json.dir/src/json.cpp.i
+	cd /home/xp/xpgit/yubot/build/rtc_pak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/xp/xpgit/yubot/src/rtc_pak/src/json.cpp > CMakeFiles/json.dir/src/json.cpp.i
 
 rtc_pak/CMakeFiles/json.dir/src/json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/json.dir/src/json.cpp.s"
-	cd /home/xp/git/yubot/build/rtc_pak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/xp/git/yubot/src/rtc_pak/src/json.cpp -o CMakeFiles/json.dir/src/json.cpp.s
+	cd /home/xp/xpgit/yubot/build/rtc_pak && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/xp/xpgit/yubot/src/rtc_pak/src/json.cpp -o CMakeFiles/json.dir/src/json.cpp.s
 
 rtc_pak/CMakeFiles/json.dir/src/json.cpp.o.requires:
 .PHONY : rtc_pak/CMakeFiles/json.dir/src/json.cpp.o.requires
@@ -79,41 +79,41 @@ json_OBJECTS = \
 # External object files for target json
 json_EXTERNAL_OBJECTS =
 
-/home/xp/git/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/src/json.cpp.o
-/home/xp/git/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/build.make
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libroscpp.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libxmlrpcpp.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libroscpp_serialization.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole_log4cxx.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole_backend_interface.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/liblog4cxx.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librostime.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libcpp_common.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/xp/git/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/xp/git/yubot/devel/lib/rtc_pak/json"
-	cd /home/xp/git/yubot/build/rtc_pak && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/json.dir/link.txt --verbose=$(VERBOSE)
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/src/json.cpp.o
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/build.make
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libroscpp.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libroscpp_serialization.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole_log4cxx.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librosconsole_backend_interface.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/liblog4cxx.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/librostime.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /opt/ros/indigo/lib/libcpp_common.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/xp/xpgit/yubot/devel/lib/rtc_pak/json: rtc_pak/CMakeFiles/json.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/xp/xpgit/yubot/devel/lib/rtc_pak/json"
+	cd /home/xp/xpgit/yubot/build/rtc_pak && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/json.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rtc_pak/CMakeFiles/json.dir/build: /home/xp/git/yubot/devel/lib/rtc_pak/json
+rtc_pak/CMakeFiles/json.dir/build: /home/xp/xpgit/yubot/devel/lib/rtc_pak/json
 .PHONY : rtc_pak/CMakeFiles/json.dir/build
 
 rtc_pak/CMakeFiles/json.dir/requires: rtc_pak/CMakeFiles/json.dir/src/json.cpp.o.requires
 .PHONY : rtc_pak/CMakeFiles/json.dir/requires
 
 rtc_pak/CMakeFiles/json.dir/clean:
-	cd /home/xp/git/yubot/build/rtc_pak && $(CMAKE_COMMAND) -P CMakeFiles/json.dir/cmake_clean.cmake
+	cd /home/xp/xpgit/yubot/build/rtc_pak && $(CMAKE_COMMAND) -P CMakeFiles/json.dir/cmake_clean.cmake
 .PHONY : rtc_pak/CMakeFiles/json.dir/clean
 
 rtc_pak/CMakeFiles/json.dir/depend:
-	cd /home/xp/git/yubot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xp/git/yubot/src /home/xp/git/yubot/src/rtc_pak /home/xp/git/yubot/build /home/xp/git/yubot/build/rtc_pak /home/xp/git/yubot/build/rtc_pak/CMakeFiles/json.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xp/xpgit/yubot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xp/xpgit/yubot/src /home/xp/xpgit/yubot/src/rtc_pak /home/xp/xpgit/yubot/build /home/xp/xpgit/yubot/build/rtc_pak /home/xp/xpgit/yubot/build/rtc_pak/CMakeFiles/json.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rtc_pak/CMakeFiles/json.dir/depend
 

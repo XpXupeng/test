@@ -1,2 +1,2 @@
-
+rtc_pak
 -DCATKIN_DEVEL_PREFIX=/home/xp/xpgit/yubot/devel -DCMAKE_INSTALL_PREFIX=/home/xp/xpgit/yubot/install -G Unix Makefiles

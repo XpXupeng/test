@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xp/git/yubot/src
+CMAKE_SOURCE_DIR = /home/xp/xpgit/yubot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xp/git/yubot/build
+CMAKE_BINARY_DIR = /home/xp/xpgit/yubot/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_py.
 
@@ -56,10 +56,10 @@ rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build: rosgraph_msgs_g
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 
 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
-	cd /home/xp/git/yubot/build/rtc_pak && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/xp/xpgit/yubot/build/rtc_pak && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend:
-	cd /home/xp/git/yubot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xp/git/yubot/src /home/xp/git/yubot/src/rtc_pak /home/xp/git/yubot/build /home/xp/git/yubot/build/rtc_pak /home/xp/git/yubot/build/rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/xp/xpgit/yubot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/xp/xpgit/yubot/src /home/xp/xpgit/yubot/src/rtc_pak /home/xp/xpgit/yubot/build /home/xp/xpgit/yubot/build/rtc_pak /home/xp/xpgit/yubot/build/rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/depend
 

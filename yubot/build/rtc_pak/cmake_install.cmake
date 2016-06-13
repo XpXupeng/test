@@ -1,8 +1,8 @@
-# Install script for directory: /home/xp/git/yubot/src/rtc_pak
+# Install script for directory: /home/xp/xpgit/yubot/src/rtc_pak
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/xp/git/yubot/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/xp/xpgit/yubot/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xp/git/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pak.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/xp/xpgit/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pak.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtc_pak/cmake" TYPE FILE FILES
-    "/home/xp/git/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pakConfig.cmake"
-    "/home/xp/git/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pakConfig-version.cmake"
+    "/home/xp/xpgit/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pakConfig.cmake"
+    "/home/xp/xpgit/yubot/build/rtc_pak/catkin_generated/installspace/rtc_pakConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtc_pak" TYPE FILE FILES "/home/xp/git/yubot/src/rtc_pak/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rtc_pak" TYPE FILE FILES "/home/xp/xpgit/yubot/src/rtc_pak/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

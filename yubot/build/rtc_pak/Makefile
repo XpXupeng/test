@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xp/git/yubot/src
+CMAKE_SOURCE_DIR = /home/xp/xpgit/yubot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xp/git/yubot/build
+CMAKE_BINARY_DIR = /home/xp/xpgit/yubot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/xp/git/yubot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xp/git/yubot/build/CMakeFiles /home/xp/git/yubot/build/rtc_pak/CMakeFiles/progress.marks
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xp/git/yubot/build/CMakeFiles 0
+	cd /home/xp/xpgit/yubot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xp/xpgit/yubot/build/CMakeFiles /home/xp/xpgit/yubot/build/rtc_pak/CMakeFiles/progress.marks
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xp/xpgit/yubot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/clean
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/preinstall
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/preinstall
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/xp/git/yubot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/xp/xpgit/yubot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/client.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/client.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/client.dir/rule
 .PHONY : rtc_pak/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ client: rtc_pak/CMakeFiles/client.dir/rule
 
 # fast build rule for target.
 client/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/json.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/json.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/json.dir/rule
 .PHONY : rtc_pak/CMakeFiles/json.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ json: rtc_pak/CMakeFiles/json.dir/rule
 
 # fast build rule for target.
 json/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/build
 .PHONY : json/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ roscpp_generate_messages_cpp: rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.di
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -202,12 +202,12 @@ roscpp_generate_messages_lisp: rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ roscpp_generate_messages_py: rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -230,12 +230,12 @@ rosgraph_msgs_generate_messages_cpp: rtc_pak/CMakeFiles/rosgraph_msgs_generate_m
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -244,12 +244,12 @@ rosgraph_msgs_generate_messages_lisp: rtc_pak/CMakeFiles/rosgraph_msgs_generate_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ rosgraph_msgs_generate_messages_py: rtc_pak/CMakeFiles/rosgraph_msgs_generate_me
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -272,12 +272,12 @@ std_msgs_generate_messages_cpp: rtc_pak/CMakeFiles/std_msgs_generate_messages_cp
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -286,12 +286,12 @@ std_msgs_generate_messages_lisp: rtc_pak/CMakeFiles/std_msgs_generate_messages_l
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/xp/git/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f CMakeFiles/Makefile2 rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -300,7 +300,7 @@ std_msgs_generate_messages_py: rtc_pak/CMakeFiles/std_msgs_generate_messages_py.
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/build.make rtc_pak/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 src/client.o: src/client.cpp.o
@@ -308,7 +308,7 @@ src/client.o: src/client.cpp.o
 
 # target to build an object file
 src/client.cpp.o:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.o
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.o
 .PHONY : src/client.cpp.o
 
 src/client.i: src/client.cpp.i
@@ -316,7 +316,7 @@ src/client.i: src/client.cpp.i
 
 # target to preprocess a source file
 src/client.cpp.i:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.i
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.i
 .PHONY : src/client.cpp.i
 
 src/client.s: src/client.cpp.s
@@ -324,7 +324,7 @@ src/client.s: src/client.cpp.s
 
 # target to generate assembly for a file
 src/client.cpp.s:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.s
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/client.dir/build.make rtc_pak/CMakeFiles/client.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
 
 src/json.o: src/json.cpp.o
@@ -332,7 +332,7 @@ src/json.o: src/json.cpp.o
 
 # target to build an object file
 src/json.cpp.o:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.o
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.o
 .PHONY : src/json.cpp.o
 
 src/json.i: src/json.cpp.i
@@ -340,7 +340,7 @@ src/json.i: src/json.cpp.i
 
 # target to preprocess a source file
 src/json.cpp.i:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.i
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.i
 .PHONY : src/json.cpp.i
 
 src/json.s: src/json.cpp.s
@@ -348,7 +348,7 @@ src/json.s: src/json.cpp.s
 
 # target to generate assembly for a file
 src/json.cpp.s:
-	cd /home/xp/git/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.s
+	cd /home/xp/xpgit/yubot/build && $(MAKE) -f rtc_pak/CMakeFiles/json.dir/build.make rtc_pak/CMakeFiles/json.dir/src/json.cpp.s
 .PHONY : src/json.cpp.s
 
 # Help Target
@@ -392,6 +392,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/xp/git/yubot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/xp/xpgit/yubot/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

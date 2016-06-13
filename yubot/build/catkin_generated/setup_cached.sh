@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/xp/xpgit/yubot/devel:$CMAKE_PREFIX_PATH"
 export PWD="/home/xp/xpgit/yubot/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/xp/xpgit/yubot/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/xp/xpgit/yubot/src:$ROS_PACKAGE_PATH"

@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/client.dir/src/client.cpp.o"
-  "/home/xp/git/yubot/devel/lib/rtc_pak/client.pdb"
-  "/home/xp/git/yubot/devel/lib/rtc_pak/client"
+  "/home/xp/xpgit/yubot/devel/lib/rtc_pak/client.pdb"
+  "/home/xp/xpgit/yubot/devel/lib/rtc_pak/client"
 )
 
 # Per-language clean rules from dependency scanning.

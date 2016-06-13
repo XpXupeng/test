@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/json.dir/src/json.cpp.o"
-  "/home/xp/git/yubot/devel/lib/rtc_pak/json.pdb"
-  "/home/xp/git/yubot/devel/lib/rtc_pak/json"
+  "/home/xp/xpgit/yubot/devel/lib/rtc_pak/json.pdb"
+  "/home/xp/xpgit/yubot/devel/lib/rtc_pak/json"
 )
 
 # Per-language clean rules from dependency scanning.
